@@ -17,20 +17,17 @@ public class Task2<T> {
 
 
 //Метод enqueue добавляет элемент в конец очереди.
-
     public void enqueue(T element) {
         queue.addLast(element);
     }
 
 // Метод dequeue возвращает и удаляет первый элемент из очереди.
-
     public T dequeue() {
         return queue.pollFirst();
     }
 
 
 //Метод first возвращает первый элемент из очереди без удаления.
-
     public T first() {
         return queue.peekFirst();
     }
@@ -41,14 +38,12 @@ public class Task2<T> {
     }
 
 
-    //Метод size возвращает текущий размер очереди.
-
+//Метод size возвращает текущий размер очереди.
     public int size() {
         return queue.size();
     }
 
-   //Метод display выводит список элементов в очереди.
-
+//Метод display выводит список элементов в очереди.
     public void display() {
         System.out.println("Elements in the queue: " + queue);
     }
