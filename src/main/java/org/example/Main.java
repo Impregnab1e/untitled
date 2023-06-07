@@ -1,5 +1,7 @@
 package org.example;
-import Lesson4.Task2;
+//import Lesson4.Task2;
+
+import Lesson5.Task1;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +11,9 @@ public class Main {
 //        Task1.RandomNumberListOperations();
 //        Task1 task1 = new Task1();
 //        Task1.LinkedListReverse();
-        Task2 task2 = new Task2();
-        Task2.QueueUsingLinkedList();
+//        Task2 task2 = new Task2();
+//        Task2.QueueUsingLinkedList();
+        Task1 task1 = new Task1();
+        Task1.PhoneBook();
     }
 }
